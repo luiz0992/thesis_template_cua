@@ -1,0 +1,101 @@
+% Turabian Formatting for Theses and Dissertations, 2018/08/06
+%
+% Developed using the turabian-formatting package (2018/08/01), available through CTAN: http://www.ctan.org/pkg/turabian-formatting
+%
+% Additional document class formatting options:
+%
+% raggedright: ragged right formatting without hyphenations
+% authordate: support for the author-date citation style
+% endnotes: support for endnotes
+
+\documentclass[12pt]{turabian-thesis}
+
+\usepackage{lipsum}
+\usepackage{blindtext}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage[normalem]{ulem}
+\usepackage{xspace}
+\usepackage{xcolor}
+\usepackage[varg]{txfonts}
+\usepackage{colortbl,dcolumn}
+\newcommand\hmmax{0}
+\newcommand\bmmax{0}
+\usepackage{bm}
+
+\def\zz#1{%
+\ifdim#1pt>89pt\cellcolor{green}\else
+\ifdim#1pt>79pt\cellcolor{yellow}\else
+\cellcolor{red}\fi\fi
+#1}
+
+% Information for title page
+\title{[TITLE OF THE THESIS]}
+
+%\subtitle{A Template based on Turabian's \emph{A Manual for Writers}, 9th edition}
+\author{[AUTHOR'S NAME]}
+
+\authorinfo{M.Sc., The Catholic University of America, [year]}
+\department{Department of Physics}
+\school{School of Arts and Science}
+\institution{The Catholic University of America}
+\location{Washington, D.C.}
+\degreework{Doctor of Philosophy}
+
+%For List of figures and table titles excluded word from capitalization 
+% \Addlcwords{the of into in to a at on and is for}
+
+% \makenomenclature
+
+\begin{document}
+
+% \renewcommand{\thepage}{\roman{page}}
+
+\frontmatter
+\maketitle
+\include{frontmatter/1abstract}
+\PrintCommitteeInfoPage{[AUTHOR'S NAME]}{[FIRST COMMITTEE MEMBER]}{[SECOND COMMITTEE MEMBER]}{[THIRD COMMITTEE MEMBER]}{[FORTH COMMITTEE MEMBER]}{[Month of Defense]}
+\include{frontmatter/4dedication}
+\include{frontmatter/5acknowledgment}
+\tableofcontents 
+\listoffigures
+\listoftables
+\mainmatter
+
+\include{mainmatter/introduction}
+\include{mainmatter/chaptertwo}
+\include{mainmatter/chapterthree}
+\include{mainmatter/chapterfour}
+\include{mainmatter/conclusion}
+
+
+\backmatter
+
+\bibliographystyle{aa}
+\bibliography{backmatter/refferences}
+
+    \begin{appendixes}
+    \include{backmatter/appendixa}
+    \end{appendixes}
+
+    \begin{appendixes}
+    \include{backmatter/appendixb}
+    \end{appendixes}
+    
+    \begin{appendixes}
+    \include{backmatter/appendixc}
+    \end{appendixes}
+    
+
+\end{document}
