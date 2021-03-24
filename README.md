@@ -7,8 +7,14 @@ Developed using the turabian-formatting package (2018/08/01), available through 
 
 Additional document class formatting options:
 
+natbib commands was used for the bibliography and references. 
+
+Solar Physics Journal bibligraphy format was used 
+
 raggedright: ragged right formatting without hyphenations
+
 authordate: support for the author-date citation style
+
 endnotes: support for endnotes
 
 
