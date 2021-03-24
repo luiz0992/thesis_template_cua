@@ -1,7 +1,5 @@
 # The Catholic University of America PhD Thesis Template (2021/03/23)
-Based of the Turabian Formatting for Theses and Dissertations
-
-This is a thesis template for The Catholic University of America.
+This is a thesis template for The Catholic University of America based of the Turabian Formatting for Theses and Dissertations
 
 * Developed using the turabian-formatting package (2018/08/01), available through CTAN: http://www.ctan.org/pkg/turabian-formatting
 
@@ -14,9 +12,9 @@ Solar Physics Journal bibligraphy format was used
 * For instructions of bibliography access https://www.springer.com/journal/11207/submission-guidelines#Instructions%20for%20Authors_Additional%20Instructions
 
 ## Additional commands
-*raggedright: ragged right formatting without hyphenations
-*authordate: support for the author-date citation style
-*endnotes: support for endnotes
+* raggedright: ragged right formatting without hyphenations
+* authordate: support for the author-date citation style
+* endnotes: support for endnotes
 
 
 Adapted by Luiz F. G. dos Santos (2021/03/23)
