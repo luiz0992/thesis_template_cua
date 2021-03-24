@@ -1,4 +1,4 @@
-#The Catholic University of America PhD Thesis Template (2021/03/23)
+# The Catholic University of America PhD Thesis Template (2021/03/23)
 Based of the Turabian Formatting for Theses and Dissertations
 
 This is a thesis template for The Catholic University of America.
@@ -10,3 +10,6 @@ Additional document class formatting options:
 raggedright: ragged right formatting without hyphenations
 authordate: support for the author-date citation style
 endnotes: support for endnotes
+
+
+Adapted by Luiz F. G. dos Santos (2021/03/23)
