@@ -34,12 +34,6 @@
 \newcommand\bmmax{0}
 \usepackage{bm}
 
-\def\zz#1{%
-\ifdim#1pt>89pt\cellcolor{green}\else
-\ifdim#1pt>79pt\cellcolor{yellow}\else
-\cellcolor{red}\fi\fi
-#1}
-
 % Information for title page
 \title{[TITLE OF THE THESIS]}
 
@@ -65,9 +59,9 @@
 \frontmatter
 \maketitle
 \include{frontmatter/1abstract}
-\PrintCommitteeInfoPage{[AUTHOR'S NAME]}{[FIRST COMMITTEE MEMBER]}{[SECOND COMMITTEE MEMBER]}{[THIRD COMMITTEE MEMBER]}{[FORTH COMMITTEE MEMBER]}{[Month of Defense]}
-\include{frontmatter/4dedication}
-\include{frontmatter/5acknowledgment}
+\PrintCommitteeInfoPage{[AUTHOR'S NAME]}{[FIRST COMMITTEE MEMBER]}{[SECOND COMMITTEE MEMBER]}{[THIRD COMMITTEE MEMBER]}{[FORTH COMMITTEE MEMBER]}
+\include{frontmatter/2dedication}
+\include{frontmatter/3acknowledgment}
 \tableofcontents 
 \listoffigures
 \listoftables

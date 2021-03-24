@@ -605,19 +605,15 @@
 
 \fi
 
-\newcommand{\PrintCommitteeInfoPage}[6] {
+\newcommand{\PrintCommitteeInfoPage}[5] {
     \clearpage
-\noindent This dissertation by \text{#1} fulfills the dissertation requirement for the doctoral degree in Physics approved by \text{#2}, as Director, and by \text{#3}, and \text{#4}, and \text{#5}, Ph.D., as Readers.
+\noindent This dissertation by Luiz Fernando Guedes dos Santos fulfills the dissertation requirement for the doctoral degree in Physics approved by \text{#2}, as Director, and by \text{#3}, and \text{#4}, and \text{#5}, as Readers.
     \vspace*{\stretch{1}}
     \singlespacing
     \begin{flushright}
         \noindent\rule{0.75\linewidth}{0.4pt} \\
         \vspace{7mm}
-        \text{#1}, Director\\
-        \vspace{12.5mm}
-        \noindent\rule{0.75\linewidth}{0.4pt} \\
-        \vspace{7mm}
-        \text{#2}, Reader \\
+        \text{#2}, Director\\
         \vspace{12.5mm}
         \noindent\rule{0.75\linewidth}{0.4pt} \\
         \vspace{7mm}
@@ -625,8 +621,13 @@
         \vspace{12.5mm}
         \noindent\rule{0.75\linewidth}{0.4pt} \\
         \vspace{7mm}
-        \text{#4}, Reader
+        \text{#4}, Reader \\
+        \vspace{12.5mm}
+        \noindent\rule{0.75\linewidth}{0.4pt} \\
+        \vspace{7mm}
+        \text{#5}, Reader
     \end{flushright}
+    \setcounter{page}{2}
 
     \vspace*{\stretch{1}}
     \noindent
