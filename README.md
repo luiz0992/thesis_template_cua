@@ -1,6 +1,8 @@
 # The Catholic University of America PhD Dissertation Template (2021/03/23)
 This is a dissertation template for The Catholic University of America based of the Turabian Formatting for Theses and Dissertations.
 
+* Overleaf document can be found at https://www.overleaf.com/latex/templates/the-catholic-university-of-america-phd-dissertation-template/ctcpjrhmkwgz
+
 * CUA's Dissertation handbook can be found at https://graduate-studies.catholic.edu/doctoral/handbook.html
 
 * Developed using the turabian-formatting package (2018/08/01), available through CTAN: http://www.ctan.org/pkg/turabian-formatting
