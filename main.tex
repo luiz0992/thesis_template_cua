@@ -50,10 +50,10 @@
 \usepackage{ragged2e}
 
 
-\setcounter{secnumdepth}{2}
+\setcounter{secnumdepth}{2} %These lines just define how much depth of subsection numbering you want.
 \setcounter{tocdepth}{2}
 
-\makeatletter
+\makeatletter % these lines just formats how it will show up at the table of contents
     \renewcommand*{\l@section}{%
         \ifnum \c@tocdepth >\z@ \vskip \tf@singlelineskip \fi
         \@dottedtocline{1}{1.25in}{0.5in}}
