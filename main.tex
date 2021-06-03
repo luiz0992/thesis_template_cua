@@ -49,6 +49,19 @@
 \usepackage{bm}
 \usepackage{ragged2e}
 
+
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+
+\makeatletter
+    \renewcommand*{\l@section}{%
+        \ifnum \c@tocdepth >\z@ \vskip \tf@singlelineskip \fi
+        \@dottedtocline{1}{1.25in}{0.5in}}
+    \renewcommand*{\l@subsection}{%
+        \ifnum \c@tocdepth >\z@ \vskip \tf@singlelineskip \fi
+        \@dottedtocline{2}{1.75in}{0.5in}}
+\makeatother
+
 % Information for title page
 \title{[TITLE OF THE THESIS]}
 
