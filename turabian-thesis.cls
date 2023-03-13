@@ -87,7 +87,7 @@
 
 
 % Binding offset: 0.5in
-\setlength\oddsidemargin{0.5in}
+\setlength\oddsidemargin{1.0in}
 \AtEndPreamble{%
 	\addtolength\textwidth{-\oddsidemargin}}
 
